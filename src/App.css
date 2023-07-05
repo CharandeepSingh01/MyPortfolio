@@ -1,0 +1,8 @@
+.toggle-bar{
+    display:none;
+}
+@media (max-width: 767px) {
+    .toggle-bar{
+        display:block;
+    }
+}
