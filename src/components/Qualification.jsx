@@ -2,8 +2,9 @@ import React from 'react'
 
 const Qualification = () => {
   return (
-    <div>
-      <section class="text-gray-600 body-font overflow-hidden">
+    <>
+    <div className='flex overflow-y-auto h-full'>
+      <section class="text-gray-600 body-font overflow-y-auto">
   <div class="container px-5 py-24 mx-auto">
     <div class="-my-8 divide-y-2 divide-gray-100">
       <div class="py-8 flex flex-wrap md:flex-nowrap">
@@ -58,6 +59,7 @@ const Qualification = () => {
   </div>
 </section>
     </div>
+    </>
   )
 }
 
