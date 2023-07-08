@@ -1,10 +1,11 @@
 import React from 'react'
 import '../Noscrollbar.css'
+import './Dashboard.css'
 
 const Dashboard = () => {
   
         return (
-          <div className=" bg-gray-100 overflow-y-auto h-screen -mx-6 -m-14 overflow-x-hidden no-scrollbar">
+          <div className="  overflow-y-auto h-screen -mx-6 -m-14 overflow-x-hidden no-scrollbar margin-sides">
           {/* Code block starts */}
           
               

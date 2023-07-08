@@ -275,8 +275,8 @@ admin_panel_settings
   </div> : null}
       
      
-      {!show ? <div className="container mx-auto md:px-10 sm:px-5 py-10 h-screen md:w-4/5 w-11/12 overflow-y-hidden overflow-x-hidden">
-      <button style={{position:"fixed"}} className="toggle-bar" onClick={showHandler}><i class="fa fa-bars toggle-bar"></i></button>
+      {!show ? <div className="container mx-auto md:px-10  py-10 h-screen md:w-4/5 w-11/12 overflow-y-hidden overflow-x-hidden">
+      <button style={{position:"fixed", zIndex:"9999"}} className="toggle-bar" onClick={showHandler}><i class="fa fa-bars toggle-bar"></i></button>
           <div className="w-full h-full rounded ">
           <Routes>
              
