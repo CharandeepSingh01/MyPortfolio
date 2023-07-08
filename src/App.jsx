@@ -242,7 +242,7 @@ admin_panel_settings
               </div>
               <div>
                   <p className="text-blue-50 text-sm font-medium">Charandeep Singh</p>
-                  <Link to="/profile"><p className="text-blue-50 text-xs">View Profile</p></Link>
+                  <Link to="/profile"><p className="text-blue-50 text-xs" onClick={showHandler}>View Profile</p></Link>
               </div>
           </div>
           <ul className="w-full px-8 flex items-center justify-between bg-indigo-800 " onClick={showHandler}>
