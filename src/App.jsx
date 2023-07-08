@@ -14,6 +14,7 @@ import Social from "./components/Social";
 import Widget from "./components/Widget";
 import Administrative from "./components/Administrative";
 import Testimonial from "./components/Testimonial";
+import Profile from "./components/Profile";
 export default function IndexPage() {
  
     const [show, setShow] = useState(false);
@@ -35,7 +36,7 @@ export default function IndexPage() {
                   <img src={logo} alt="logo" className="w-16 h-16" />
               </div>
               <ul className="mt-8 text-blue-50">
-                  <Link to="/"><li className="flex w-full justify-between text-blue-50 hover:text-gray-300 hover:bg-indigo-800 cursor-pointer items-center py-3 px-8">
+                  <Link to="/"><li className="flex w-full justify-between text-blue-50 hover:text-gray-300 hover:bg-indigo-800 focus:bg-indigo-800 cursor-pointer items-center py-3 px-8">
                       <div className="flex items-center">
                           <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-grid" width={18} height={18} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                               <path stroke="none" d="M0 0h24v24H0z" />
@@ -117,7 +118,7 @@ export default function IndexPage() {
                   </div>
                   <div>
                       <p className="text-blue-50 text-sm font-medium">Charandeep Singh</p>
-                      <p className="text-blue-50 text-xs">View Profile</p>
+                      <Link to="/profile"><p className="text-blue-50 text-xs">View Profile</p></Link>
                   </div>
               </div>
               <ul className="w-full px-8 flex items-center justify-between bg-indigo-800 ">
@@ -241,7 +242,7 @@ admin_panel_settings
               </div>
               <div>
                   <p className="text-blue-50 text-sm font-medium">Charandeep Singh</p>
-                  <p className="text-blue-50 text-xs">View Profile</p>
+                  <Link to="/profile"><p className="text-blue-50 text-xs">View Profile</p></Link>
               </div>
           </div>
           <ul className="w-full px-8 flex items-center justify-between bg-indigo-800 " onClick={showHandler}>
@@ -274,7 +275,7 @@ admin_panel_settings
   </div> : null}
       
      
-      {!show ? <div className="container mx-auto md:px-10 sm:px-5 py-10 h-screen md:w-4/5 w-11/12 overflow-y-hidden">
+      {!show ? <div className="container mx-auto md:px-10 sm:px-5 py-10 h-screen md:w-4/5 w-11/12 overflow-y-hidden overflow-x-hidden">
       <button style={{position:"fixed"}} className="toggle-bar" onClick={showHandler}><i class="fa fa-bars toggle-bar"></i></button>
           <div className="w-full h-full rounded ">
           <Routes>
@@ -290,6 +291,7 @@ admin_panel_settings
           <Route path="/experience" element={<Experience />} />
           <Route path="/extracurricular" element={<Extracurricular />} />
           <Route path="/social" element={<Social />} />
+          <Route path="/profile" element={<Profile />} />
               
               </Routes>
           </div> 
