@@ -18,7 +18,7 @@ const Contact = () => {
                                         <polyline points="3 7 12 13 21 7" />
                                     </svg>
                                 </div>
-                                <p className="pl-4 text-white text-base">charandeepsinghchawla01@outlook.com</p>
+                                <p className="pl-4 text-white text-base">charandeepsinghchawla01<br />@outlook.com</p>
                             
                             </div>
                             <div className="flex items-center">
@@ -29,19 +29,20 @@ const Contact = () => {
                                         <polyline points="3 7 12 13 21 7" />
                                     </svg>
                                 </div>
-                                <p className="pl-4 text-white text-base">charandeepsinghchawla01@gmail.com</p>
+                                <p className=" pl-4 text-white text-base">charandeepsinghchawla01<br />@gmail.com</p>
                             </div>
                             <p className="text-lg text-white pt-10 tracking-wide">
                                 Tinsukia, Assam <br />
                                 India
                             </p>
-                            <a href="javascript:void(0)">
-                                <p className="text-white pt-16 font-bold tracking-wide underline">Telegram</p>
+                            <a href="https://t.me/Charandeep01">
+                                <p className="text-white pt-16 font-bold tracking-wide underline">Telegram-Charandeep01</p>
                             </a>
                         </div>
                     </div>
                     <div className="xl:w-3/5 lg:w-3/5  h-full pt-5 xl:pr-5 xl:pl-0 rounded-tr rounded-br">
-                        <form id="contact" className="bg-white py-4 px-8 rounded-tr rounded-br">
+                        <form id="contact" className="bg-white py-4 px-8 rounded-tr rounded-br" action="https://formspree.io/f/xnqkqylj"
+  method="POST">
                             <h1 className="text-4xl text-gray-800 font-extrabold mb-6">Enter Details</h1>
                             <div className="block xl:flex w-full flex-wrap justify-between mb-6">
                                 <div className="w-2/4 max-w-xs mb-6 xl:mb-0">
