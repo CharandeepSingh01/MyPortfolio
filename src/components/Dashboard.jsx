@@ -371,6 +371,90 @@ const Dashboard = () => {
         </div>
     </div>
 
+    
+<section class="bg-indigo-800 px-8">
+    <div class="container grid grid-cols-2 gap-8 py-8 mx-auto text-center md:grid-cols-4">
+        <div>
+            <h5 class="text-5xl font-bold text-white">
+                <span class="inline text-white">
+                    5000
+                </span>
+                <span class="text-indigo-200">
+                    +
+                </span>
+            </h5>
+            <p class="text-xs font-medium tracking-wide text-indigo-100 uppercase">
+                Lines of code
+            </p>
+        </div>
+        <div>
+            <h5 class="text-5xl font-bold text-white">
+                <span class="inline text-white">
+                    8
+                </span>
+                <span class="text-indigo-200">
+                    +
+                </span>
+            </h5>
+            <p class="text-xs font-medium tracking-wide text-indigo-100 uppercase">
+                Tech used
+            </p>
+        </div>
+        <div>
+            <h5 class="text-5xl font-bold text-white">
+                <span class="inline text-white">
+                    10
+                </span>
+                <span class="text-indigo-200">
+                    +
+                </span>
+            </h5>
+            <p class="text-xs font-medium tracking-wide text-indigo-100 uppercase">
+                Finished projects
+            </p>
+        </div>
+        <div>
+            <h5 class="text-5xl font-bold text-white">
+                <span class="inline text-white">
+                    0-1
+                </span>
+                
+            </h5>
+            <p class="text-xs font-medium tracking-wide text-indigo-100 uppercase">
+                Years experience
+            </p>
+        </div>
+    </div>
+    
+</section>
+
+<section class="max-w-screen-xl px-4 py-12 mx-auto bg-gray-900 dark:bg-gray-800 sm:py-16 sm:px-6 lg:px-8 lg:py-20 mt-4">
+    <div class="max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-extrabold leading-9 text-white sm:text-4xl sm:leading-10">
+            I am always up for the opportunity to work with others.
+        </h2>
+        <p class="mt-3 text-base leading-7 text-white sm:mt-4">
+            Feel confident in choosing me as the best candidate for your tech needs.
+        </p>
+    </div>
+    <div class="mt-10 text-center sm:max-w-3xl sm:mx-auto sm:grid sm:grid-cols-1 sm:gap-8">
+        <div>
+            <p class="text-5xl font-extrabold leading-none text-white">
+                To get in touch
+            </p>
+            <p class="mt-2 text-base font-medium leading-6 text-white">
+                Just reach me through below button
+            </p>
+        </div>
+        </div>
+    <div class="flex p-4 mx-auto mt-4 w-52">
+        <button type="button" class="w-full px-4 py-2 text-base font-semibold text-center text-white transition duration-200 ease-in shadow-md bg-gradient-to-r from-blue-800 to-blue-800 focus:outline-none focus:ring-2 focus:ring-offset-2 ">
+            Contact
+        </button>
+    </div>
+</section>
+
+
 
       </div>
     
