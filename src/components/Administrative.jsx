@@ -2,10 +2,11 @@ import React from 'react'
 
 const Administrative = () => {
   return (
-    <div className="container mx-auto flex flex-col items-center">
-    <div className='overflow-y-auto flex'>
-      <section class="text-gray-600 body-font ">
-  <div class="container px-5 py-24 mx-auto flex flex-wrap items-center">
+    <div>
+    <div className="container mx-auto flex flex-col items-center mt-2 overflow-y-auto overflow-x-hidden">
+    <div className='overflow-y-auto flex '>
+      <section class="text-gray-600 body-font overflow-y-auto">
+  <div class="container px-5 py-8 mx-auto flex flex-wrap items-center">
     <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
       <h1 class="title-font font-medium text-3xl text-gray-900">Admin Authentication required to access the editable features.</h1>
       <p class="leading-relaxed mt-4">Successful authentication enables access to Widget page to dynamically add new details in other sections. </p>
@@ -25,6 +26,7 @@ const Administrative = () => {
     </div>
   </div>
 </section>
+    </div>
     </div>
     </div>
   )
