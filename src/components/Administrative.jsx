@@ -2,7 +2,7 @@ import React from 'react'
 
 const Administrative = () => {
   return (
-    <div>
+    <div className='overflow-y-auto h-full'>
     <div className="container mx-auto flex flex-col items-center mt-2 overflow-y-auto overflow-x-hidden">
     <div className='overflow-y-auto flex '>
       <section class="text-gray-600 body-font overflow-y-auto">

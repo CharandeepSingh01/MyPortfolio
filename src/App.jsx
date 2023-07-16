@@ -15,6 +15,7 @@ import Widget from "./components/Widget";
 import Administrative from "./components/Administrative";
 import Testimonial from "./components/Testimonial";
 import Profile from "./components/Profile";
+import profimg from "./assets/img.png";
 export default function IndexPage() {
  
     const [show, setShow] = useState(false);
@@ -114,7 +115,7 @@ export default function IndexPage() {
           <div className="w-full bg-indigo-900">
           <div className="flex items-center bg-indigo-900 pb-4 px-8 w-full">
                   <div className="w-10 h-10 bg-cover rounded-md mr-3">
-                      <img src="https://tuk-cdn.s3.amazonaws.com/assets/components/avatars/a_5.png" alt className="rounded-full h-full w-full overflow-hidden shadow" />
+                      <img src={profimg} alt className="rounded-full h-full w-full overflow-hidden shadow" />
                   </div>
                   <div>
                       <p className="text-blue-50 text-sm font-medium">Charandeep Singh</p>
@@ -238,7 +239,7 @@ admin_panel_settings
       <div className="w-full bg-indigo-900">
       <div className="flex items-center bg-indigo-900 pb-4 px-8 w-full">
               <div className="w-10 h-10 bg-cover rounded-md mr-3">
-                  <img src="https://tuk-cdn.s3.amazonaws.com/assets/components/avatars/a_5.png" alt className="rounded-full h-full w-full overflow-hidden shadow" />
+                  <img src={profimg} alt="img" className="rounded-full h-full w-full overflow-hidden shadow" />
               </div>
               <div>
                   <p className="text-blue-50 text-sm font-medium">Charandeep Singh</p>

@@ -2,6 +2,7 @@ import React from 'react'
 import '../Noscrollbar.css'
 import './Dashboard.css'
 import coverphoto from '../assets/covers.png'
+import { Link } from 'react-router-dom';
 
 const Dashboard = () => {
   
@@ -18,7 +19,7 @@ const Dashboard = () => {
                           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-white font-bold leading-tight px-4">Code is poetry, and the web is my canvas</h1>
                       </div>
                       <div className="flex justify-center items-center mb-10 sm:mb-20">
-                          <button className="hover:text-white hover:bg-transparent lg:text-xl hover:border-white border bg-white transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 ring-offset-indigo-700	focus:ring-white rounded text-indigo-700 px-4 sm:px-8 py-1 sm:py-3 text-sm">About Me</button>
+                       <Link to="/profile"><button className="hover:text-white hover:bg-transparent lg:text-xl hover:border-white border bg-white transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 ring-offset-indigo-700	focus:ring-white rounded text-indigo-700 px-4 sm:px-8 py-1 sm:py-3 text-sm">About Me</button></Link>
                           <button className="hover:bg-white hover:text-indigo-600 lg:text-xl hover:border-indigo-600 ml-3 sm:ml-6 bg-transparent transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 ring-offset-indigo-700 focus:ring-white hover:bg-indigo-700-800 rounded border border-white text-white px-4 sm:px-8 py-1 sm:py-3 text-sm"><a href="#">My CV</a></button>
                       </div>
                   </div>
