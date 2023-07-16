@@ -38,10 +38,10 @@ const Dashboard = () => {
                     Interactive
                 </p>
                 <h4 class="mt-2 text-2xl font-extrabold leading-8 text-gray-900 dark:text-white sm:text-3xl sm:leading-9">
-                    Interactivity between me and web technologies is the key of my success.
+                    Interactivity between me and web technologies is the key of accomplishment.
                 </h4>
                 <p class="mt-4 text-lg leading-6 text-gray-500 dark:text-gray-300">
-                    Build a simply and powered collaborative space for all your team. Track, share, measure, you have a fully control, it&#x27;s never be simply and efficient.
+                    Understanding the web is the key of success. I am always up to date with the latest technologies and I am always ready to learn more.
                 </p>
                 <ul class="gap-6 mt-8 md:grid md:grid-cols-2">
                     <li class="mt-6 lg:mt-0">
@@ -53,7 +53,7 @@ const Dashboard = () => {
                                 </svg>
                             </span>
                             <span class="ml-4 text-base font-medium leading-6 text-gray-500 dark:text-gray-200">
-                                Live modifications
+                                Adaptation
                             </span>
                         </div>
                     </li>
@@ -66,7 +66,7 @@ const Dashboard = () => {
                                 </svg>
                             </span>
                             <span class="ml-4 text-base font-medium leading-6 text-gray-500 dark:text-gray-200">
-                                Data tracker
+                                Creativity
                             </span>
                         </div>
                     </li>
@@ -79,7 +79,7 @@ const Dashboard = () => {
                                 </svg>
                             </span>
                             <span class="ml-4 text-base font-medium leading-6 text-gray-500 dark:text-gray-200">
-                                24/24 support
+                                 Learn-Unlearn-Relearn
                             </span>
                         </div>
                     </li>
@@ -92,7 +92,7 @@ const Dashboard = () => {
                                 </svg>
                             </span>
                             <span class="ml-4 text-base font-medium leading-6 text-gray-500 dark:text-gray-200">
-                                Free tips to improve work time
+                                Improvisation
                             </span>
                         </div>
                     </li>
