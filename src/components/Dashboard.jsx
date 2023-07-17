@@ -103,12 +103,12 @@ const Dashboard = () => {
             <div class="relative mt-10 lg:-mx-4 relative-20 lg:mt-0 lg:col-start-1">
                 <div class="relative space-y-4">
                     <div class="flex items-end justify-center space-x-4 lg:justify-start">
-                        <img class="w-32 rounded-lg shadow-lg md:w-56" width="200" src="../assets/card.png" alt="1"/>
-                        <img class="w-40 rounded-lg shadow-lg md:w-64" width="260" src="/images/landscape/4.jpg" alt="2"/>
+                        <img class="w-32 rounded-lg shadow-lg md:w-56" width="200" src="https://apaengineering.com/wp-content/uploads/2022/11/ui-banner-desktop1.png" alt="1"/>
+                        <img class="w-40 rounded-lg shadow-lg md:w-64" width="260" src="https://regiopanorama.de/DESIGN%20MAXIME/UX-Diagram.png" alt="2"/>
                     </div>
                     <div class="flex items-start justify-center ml-12 space-x-4 lg:justify-start">
-                        <img class="w-24 rounded-lg shadow-lg md:w-40" width="170" src="/images/landscape/3.jpg" alt="3"/>
-                        <img class="w-32 rounded-lg shadow-lg md:w-56" width="200" src="/images/object/9.jpg" alt="4"/>
+                        <img class="w-24 rounded-lg shadow-lg md:w-40" width="170" src="https://f.hubspotusercontent10.net/hubfs/6448316/web-programming-languages.jpg" alt="3"/>
+                        <img class="w-32 rounded-lg shadow-lg md:w-56" width="200" src="https://fireart.studio/wp-content/uploads/2019/02/tasty.jpg" alt="4"/>
                     </div>
                 </div>
             </div>
@@ -122,15 +122,15 @@ const Dashboard = () => {
             <div class="w-full px-8 lg:w-1/2">
                 <div class="pb-12 mb-12 border-b lg:mb-0 lg:pb-0 lg:border-b-0">
                     <h2 class="mb-4 text-3xl font-bold lg:text-4xl font-heading dark:text-white">
-                        Sed ac magna sit amet risus tristique interdum, at vel velit in hac habitasse platea dictumst.
+                        Web Technologies can be used for everything. And I mean it. Projects helps me to learn more and more.
                     </h2>
                     <p class="mb-8 leading-loose text-gray-500 dark:text-gray-300">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla, sed porttitor est nibh at nulla. Praesent placerat enim ut ex tincidunt vehicula. Fusce sit amet dui tellus.
+                        I am a full stack developer, I can work on both front-end and back-end sides of an application. I can also work on databases and servers. I am able to create a fully functional website from scratch.
                     </p>
                     <div class="w-full md:w-1/3">
-                        <button type="button" class="py-2 px-4  bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
+                       <Link to="/project"> <button type="button" class="py-2 px-4  bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
                             See more
-                        </button>
+                        </button></Link>
                     </div>
                 </div>
             </div>
@@ -144,7 +144,7 @@ const Dashboard = () => {
                         </div>
                         <div class="px-4">
                             <h3 class="my-4 text-xl font-semibold dark:text-white">
-                                Responsive Elements
+                                Responsive Websites
                             </h3>
                             <p class="leading-loose text-gray-500 dark:text-gray-300">
                                 All elements are responsive and provide the best display in all screen size. It&#x27;s magic !
@@ -159,10 +159,10 @@ const Dashboard = () => {
                         </div>
                         <div class="px-4">
                             <h3 class="my-4 text-xl font-semibold dark:text-white">
-                                Flexible Team
+                                Modular Design
                             </h3>
                             <p class="leading-loose text-gray-500 dark:text-gray-300">
-                                Flexibility is the key. All team is available 24/24 and joinable every day on our hotline.
+                                Modularity is the key. All projects are modular and can be easily modified and updated.
                             </p>
                         </div>
                     </li>
@@ -174,10 +174,10 @@ const Dashboard = () => {
                         </div>
                         <div class="px-4">
                             <h3 class="my-4 text-xl font-semibold dark:text-white">
-                                Ecologic Software
+                                User-Friendly
                             </h3>
                             <p class="leading-loose text-gray-500 dark:text-gray-300">
-                                Our Software are ecologic and responsable. Green is not just a color, it&#x27;s a way of life.
+                                All projects are user-friendly and easy to use. I always keep the user in mind while developing.
                             </p>
                         </div>
                     </li>
@@ -194,23 +194,13 @@ const Dashboard = () => {
       <div class="flex flex-col items-start justify-center w-full h-full pt-6 pr-0 pb-6 pl-0 mb-6 md:mb-0 md:w-1/2">
         <div class="flex flex-col items-start justify-center h-full space-y-3 transform md:pr-10 lg:pr-16
             md:space-y-5">
-          <div class="bg-green-500 flex items-center leading-none rounded-full text-gray-50 pt-1.5 pr-3 pb-1.5 pl-2
-              uppercase inline-block">
-            <p class="inline">
-              <svg class="w-3.5 h-3.5 mr-1" fill="currentColor" viewbox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0
-                  00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755
-                  1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1
-                  0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-            </p>
-            <p class="inline text-xs font-medium">New</p>
-          </div>
-          <a class="text-4xl font-bold leading-none lg:text-5xl xl:text-6xl">Write anything. Be creative.</a>
+          
+          <a class="text-4xl font-bold leading-none lg:text-5xl xl:text-6xl">Accomplishments</a>
           <div class="pt-2 pr-0 pb-0 pl-0">
-            <p class="text-sm font-medium inline">author:</p>
-            <a class="inline text-sm font-medium mt-0 mr-1 mb-0 ml-1 underline">Jack Sparrow</a>
-            <p class="inline text-sm font-medium mt-0 mr-1 mb-0 ml-1">· 23rd, April 2021 ·</p>
-            <p class="text-gray-200 text-sm font-medium inline mt-0 mr-1 mb-0 ml-1">1hr 20min. read</p>
+          <p class="leading-loose text-gray-500 dark:text-gray-300">
+            I am elated to have successfully achieved a few of my goals through unwavering dedication, relentless effort, and an unwavering belief in my abilities
+            </p>
+            
           </div>
         </div>
       </div>
@@ -226,28 +216,26 @@ const Dashboard = () => {
         <img
             src="https://1.bp.blogspot.com/-lxdcxLC5nu0/XcGrLzEn6AI/AAAAAAAAA4w/-xMrehC4j6g5mTM7ahy2RMWsXb9aXRbnACNcBGAsYHQ/s1600/Capture.JPG" class="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-sm max-h-56 btn-"/>
         <p class="bg-green-500 flex items-center leading-none text-sm font-medium text-gray-50 pt-1.5 pr-3 pb-1.5 pl-3
-            rounded-full uppercase inline-block">Entertainment</p>
-        <a class="text-lg font-bold sm:text-xl md:text-2xl">Improving your day to the MAX</a>
-        <p class="text-sm text-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+            rounded-full uppercase inline-block">Assam Education</p>
+        <a class="text-lg font-bold sm:text-xl md:text-2xl">Anundoram Borooah Award 2018</a>
+        <p class=" leading-loose text-gray-600">Awarded with Lenovo Notebook along with two years of free internet connectivity and the Certificate in the District Library of Tinskia, Assam for my Distinction in Matriculation Examination, 2018. </p>
         <div class="pt-2 pr-0 pb-0 pl-0">
-          <a class="inline text-xs font-medium mt-0 mr-1 mb-0 ml-0 underline">Jack Sparrow</a>
-          <p class="inline text-xs font-medium mt-0 mr-1 mb-0 ml-1">· 23rd, March 2021 ·</p>
-          <p class="inline text-xs font-medium text-gray-300 mt-0 mr-1 mb-0 ml-1">1hr 20min. read</p>
+         
+          <p class="inline text-xs font-medium mt-0 mr-1 mb-0 ml-1">· 4th, March 2019 ·</p>
+          
         </div>
       </div>
       <div class="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4">
         <img
-            src="https://images.unsplash.com/photo-1626285861696-9f0bf5a49c6d?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTl8fHxlbnwwfHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" class="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-sm max-h-56 btn-"/>
+            src="https://www.hackerrank.com/wp-content/uploads/2023/06/Black-Social-Share.png" class="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-sm max-h-56 btn-"/>
         <p class="bg-green-500 flex items-center leading-none text-sm font-medium text-gray-50 pt-1.5 pr-3 pb-1.5 pl-3
-            rounded-full uppercase inline-block">Entertainment</p>
-        <a class="text-lg font-bold sm:text-xl md:text-2xl">Improving your day to the MAX</a>
-        <p class="text-sm text-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+            rounded-full uppercase inline-block">HackerRank</p>
+        <a class="text-lg font-bold sm:text-xl md:text-2xl">4 Star HackerRank C++</a>
+        <p class="leading-loose text-gray-600">Earned a four star badge in C++ during the initial days of my coding journey.</p>
         <div class="pt-2 pr-0 pb-0 pl-0">
-          <a class="inline text-xs font-medium mt-0 mr-1 mb-0 ml-0 underline">Jack Sparrow</a>
-          <p class="inline text-xs font-medium mt-0 mr-1 mb-0 ml-1">· 23rd, March 2021 ·</p>
-          <p class="inline text-xs font-medium text-gray-300 mt-0 mr-1 mb-0 ml-1">1hr 20min. read</p>
+          
+          <p class="inline text-xs font-medium mt-0 mr-1 mb-0 ml-1">· 18th, August 2022 ·</p>
+          
         </div>
       </div>
       
