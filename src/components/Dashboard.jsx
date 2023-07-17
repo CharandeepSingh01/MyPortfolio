@@ -187,7 +187,7 @@ const Dashboard = () => {
     </div>
 </section>
 
-<div class="text-gray-900 pt-12 pr-0 pb-14 pl-0 bg-white">
+<div class="text-gray-900 pt-12  pb-14  bg-white px-6">
   <div class="w-full pt-4 pr-5 pb-6 pl-5 mt-0 mr-auto mb-0 ml-auto space-y-5 sm:py-8 md:py-12 sm:space-y-8 md:space-y-16
       max-w-7xl">
     <div class="flex flex-col items-center sm:px-5 md:flex-row">
@@ -217,14 +217,14 @@ const Dashboard = () => {
       <div class="w-full md:w-1/2">
         <div class="block">
           <img
-              src="https://images.unsplash.com/photo-1626314928277-1d373ddb6428?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mzd8fHxlbnwwfHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" class="object-cover rounded-lg max-h-64 sm:max-h-96 btn- w-full h-full"/>
+              src="https://t4.ftcdn.net/jpg/02/43/63/09/360_F_243630931_Hc5wtf0sRxvLKGv4jPy8fuxbQp9v6oXE.jpg" class="object-cover rounded-lg max-h-64 sm:max-h-96 btn- w-full h-full"/>
         </div>
       </div>
     </div>
     <div class="grid grid-cols-12 sm:px-5 gap-x-8 gap-y-16">
       <div class="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4">
         <img
-            src="https://images.unsplash.com/photo-1626318305863-bb23d0297c0b?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" class="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-sm max-h-56 btn-"/>
+            src="https://1.bp.blogspot.com/-lxdcxLC5nu0/XcGrLzEn6AI/AAAAAAAAA4w/-xMrehC4j6g5mTM7ahy2RMWsXb9aXRbnACNcBGAsYHQ/s1600/Capture.JPG" class="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-sm max-h-56 btn-"/>
         <p class="bg-green-500 flex items-center leading-none text-sm font-medium text-gray-50 pt-1.5 pr-3 pb-1.5 pl-3
             rounded-full uppercase inline-block">Entertainment</p>
         <a class="text-lg font-bold sm:text-xl md:text-2xl">Improving your day to the MAX</a>
@@ -250,20 +250,7 @@ const Dashboard = () => {
           <p class="inline text-xs font-medium text-gray-300 mt-0 mr-1 mb-0 ml-1">1hr 20min. read</p>
         </div>
       </div>
-      <div class="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4">
-        <img
-            src="https://images.unsplash.com/photo-1626197031507-c17099753214?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MzR8fHxlbnwwfHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" class="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-sm max-h-56 btn-"/>
-        <p class="bg-green-500 flex items-center leading-none text-sm font-medium text-gray-50 pt-1.5 pr-3 pb-1.5 pl-3
-            rounded-full uppercase inline-block">Entertainment</p>
-        <a class="text-lg font-bold sm:text-xl md:text-2xl">Improving your day to the MAX</a>
-        <p class="text-sm text-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
-        <div class="pt-2 pr-0 pb-0 pl-0">
-          <a class="inline text-xs font-medium mt-0 mr-1 mb-0 ml-0 underline">Jack Sparrow</a>
-          <p class="inline text-xs font-medium mt-0 mr-1 mb-0 ml-1">· 23rd, March 2021 ·</p>
-          <p class="inline text-xs font-medium text-gray-300 mt-0 mr-1 mb-0 ml-1">1hr 20min. read</p>
-        </div>
-      </div>
+      
     </div>
   </div>
 </div>
