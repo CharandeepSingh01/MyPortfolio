@@ -345,9 +345,9 @@ const Dashboard = () => {
         </div>
         </div>
     <div class="flex p-4 mx-auto mt-4 w-52">
-        <button type="button" class="w-full px-4 py-2 text-base font-semibold text-center text-white transition duration-200 ease-in shadow-md bg-gradient-to-r from-blue-800 to-blue-800 focus:outline-none focus:ring-2 focus:ring-offset-2 ">
+        <Link to="/contact"><button type="button" class="w-full px-14 py-2  text-base font-semibold text-center text-white transition duration-200 ease-in shadow-md bg-gradient-to-r from-blue-800 to-blue-800 focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg ">
             Contact
-        </button>
+        </button></Link>
     </div>
 </section>
 
