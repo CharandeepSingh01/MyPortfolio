@@ -3,6 +3,7 @@ import '../Noscrollbar.css'
 import './Dashboard.css'
 import coverphoto from '../assets/covers.png'
 import { Link } from 'react-router-dom';
+import pdf from '../assets/CharanCV.pdf';
 
 const Dashboard = () => {
   
@@ -20,7 +21,7 @@ const Dashboard = () => {
                       </div>
                       <div className="flex justify-center items-center mb-10 sm:mb-20">
                        <Link to="/profile"><button className="hover:text-white hover:bg-transparent lg:text-xl hover:border-white border bg-white transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 ring-offset-indigo-700	focus:ring-white rounded text-indigo-700 px-4 sm:px-8 py-1 sm:py-3 text-sm">About Me</button></Link>
-                          <button className="hover:bg-white hover:text-indigo-600 lg:text-xl hover:border-indigo-600 ml-3 sm:ml-6 bg-transparent transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 ring-offset-indigo-700 focus:ring-white hover:bg-indigo-700-800 rounded border border-white text-white px-4 sm:px-8 py-1 sm:py-3 text-sm"><a href="#">My CV</a></button>
+                       <a href={pdf} target='_blank'><button className="hover:bg-white hover:text-indigo-600 lg:text-xl hover:border-indigo-600 ml-3 sm:ml-6 bg-transparent transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 ring-offset-indigo-700 focus:ring-white hover:bg-indigo-700-800 rounded border border-white text-white px-4 sm:px-8 py-1 sm:py-3 text-sm">My CV</button></a>
                       </div>
                   </div>
                   <div className="container mx-auto flex justify-center md:-mt-56 -mt-20 sm:-mt-40 px-4">
