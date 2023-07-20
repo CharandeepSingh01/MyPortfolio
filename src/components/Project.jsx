@@ -1,6 +1,9 @@
 import React from 'react'
 import './Project.css'
 import theprayer from '../assets/pray.png'
+import stackcode from '../assets/stack.png'
+import reactolife from '../assets/reactolife.png'
+import myportfolio from '../assets/myprofile.png'
 
 const Project = () => {
   return (
@@ -24,7 +27,7 @@ const Project = () => {
       </div>
       <div class="sm:w-full mb-10 px-4 mt-20">
         <div class="rounded-lg h-64 overflow-hidden">
-          <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1202x502" />
+          <img alt="content" class="object- object-center h-full w-full" src={stackcode} />
         </div>
         <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Stack-Code</h2>
         <p class="leading-relaxed text-base">A text-editor that consists of 4 fields i.e. HTML, CSS , JS and output frame. Made with ReactJs, Codemirror Library.</p>
@@ -35,7 +38,7 @@ const Project = () => {
       </div>
       <div class="sm:w-full mb-10 px-4 mt-20">
         <div class="rounded-lg h-64 overflow-hidden">
-          <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1202x502" />
+          <img alt="content" class="object- object-center h-full w-full" src={reactolife} />
         </div>
         <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Reactolife</h2>
         <p class="leading-relaxed text-base">A social media application based on MERN Stack with Bootstrap, JWT Authentication, REST APIs (Tested with Postman), Multer,etc. </p>
@@ -46,7 +49,7 @@ const Project = () => {
       </div>
       <div class="sm:w-full mb-10 px-4 mt-20 pb-6">
         <div class="rounded-lg h-64 overflow-hidden">
-          <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1202x502" />
+          <img alt="content" class="object- object-center h-full w-full" src={myportfolio} />
         </div>
         <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">MyPersonal</h2>
         <p class="leading-relaxed text-base">A web application based on ReactJs, Redux/Redux-Toolkit, Firebase, TailwindCSS, Tailwind UI Kits that contains all the details of my career profile.</p>
