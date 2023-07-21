@@ -8,9 +8,9 @@ import myportfolio from '../assets/myprofile.png'
 const Project = () => {
   return (
     <>
-    <div class="text-xl font-bold sm:text-xl md:text-2xl text-center text-gray-900 mb-4">
+    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 text-center">
       Projects
-    </div>
+    </h1>
     <div className=' h-screen overflow-y-auto overflow-x-hidden pb-8 no-scrollbar'>
 
   
