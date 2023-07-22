@@ -4,7 +4,7 @@ const Social = () => {
   return (
     <div>
     
-<div class="bg-white pt-12 pr-0 pb-12 pl-0 mt-0 mr-auto mb-0 ml-auto sm:py-16 lg:py-20">
+<div class="bg-white  pr-0 pb-12 pl-0 mt-0 mr-auto mb-0 ml-auto sm:py-8 ">
   <div class="pt-0 pr-4 pb-0 pl-4 mt-0 mr-auto mb-0 ml-auto max-w-7xl sm:px-6 lg:px-8">
     <div class="pt-0 pr-4 pb-0 pl-4 mt-0 mr-auto mb-0 ml-auto max-w-4xl sm:px-6 lg:px-8">
       <div class="pt-0 pr-4 pb-0 pl-4 mt-0 mr-auto mb-0 ml-auto sm:flex sm:items-center sm:justify-between">
@@ -22,13 +22,13 @@ const Social = () => {
                 <img
                     src="https://d34u8crftukxnk.cloudfront.net/slackpress/prod/sites/6/SlackLogo_CompanyNews_SecondaryAubergine_Hero.jpg?d=500x500&amp;f=fill" class="flex-shrink-0 object-cover rounded-full btn- w-10 h-10"/>
                 <div class="mt-0 mr-0 mb-0 ml-4 flex-1 min-w-0">
-                  <p class="text-lg font-bold text-gray-800 truncate">Engineering Manager</p>
-                  <p class="text-gray-600 text-md">Slack</p>
+                  <p class="text-lg font-bold text-gray-800 truncate">LinkedIn</p>
+                  
                 </div>
               </div>
               <div class="mt-4 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-14 flex items-center sm:space-x-6 sm:pl-0 sm:mt-0">
                 <a href="" class="bg-gray-800 pt-2 pr-6 pb-2 pl-6 text-lg font-medium text-gray-100 transition-all
-                    duration-200 hover:bg-gray-700 rounded-lg">Apply</a>
+                    duration-200 hover:bg-gray-700 rounded-lg">Visit</a>
               </div>
             </div>
           </div>
@@ -38,14 +38,14 @@ const Social = () => {
                 <img src="https://www.growthmarketingpro.com/wp-content/uploads/2019/10/basecamp-logo.png"
                     class="flex-shrink-0 object-cover rounded-full btn- w-10 h-10"/>
                 <div class="mt-0 mr-0 mb-0 ml-4 flex-1 min-w-0">
-                  <p class="text-lg font-bold text-gray-800 truncate">Senior Software Engineer</p>
-                  <p class="text-gray-600 text-md">Basecamp</p>
+                  <p class="text-lg font-bold text-gray-800 truncate">Github</p>
+                  
                 </div>
               </div>
               <div class="mt-4 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-14 flex items-center sm:space-x-6 sm:pl-0 sm:justify-end
                   sm:mt-0">
                 <a href="" class="bg-gray-800 pt-2 pr-6 pb-2 pl-6 text-lg font-medium text-gray-100 transition-all
-                    duration-200 hover:bg-gray-700 rounded-lg">Apply</a>
+                    duration-200 hover:bg-gray-700 rounded-lg">Visit</a>
               </div>
             </div>
           </div>
@@ -55,14 +55,14 @@ const Social = () => {
                 <img src="https://djmag.com/sites/default/files/article/image/Spotify.png" class="flex-shrink-0
                     object-cover rounded-full btn- w-10 h-10"/>
                 <div class="mt-0 mr-0 mb-0 ml-4 flex-1 min-w-0">
-                  <p class="text-lg font-bold text-gray-800 truncate">Frontend Developer</p>
-                  <p class="text-gray-600 text-md">Spotify</p>
+                  <p class="text-lg font-bold text-gray-800 truncate">Product Hunt</p>
+                  
                 </div>
               </div>
               <div class="mt-4 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-14 flex items-center sm:space-x-6 sm:pl-0 sm:justify-end
                   sm:mt-0">
                 <a href="" class="bg-gray-800 pt-2 pr-6 pb-2 pl-6 text-lg font-medium text-gray-100 transition-all
-                    duration-200 hover:bg-gray-700 rounded-lg">Apply</a>
+                    duration-200 hover:bg-gray-700 rounded-lg">Visit</a>
               </div>
             </div>
           </div>
@@ -72,14 +72,14 @@ const Social = () => {
                 <img src="https://miro.medium.com/max/512/1*n81Kr3UGUVsF0LLRgRQrJw.jpeg" class="flex-shrink-0
                     object-cover rounded-full btn- w-10 h-10"/>
                 <div class="mt-0 mr-0 mb-0 ml-4 flex-1 min-w-0">
-                  <p class="text-lg font-bold text-gray-800 truncate">Lead Software Engineer</p>
-                  <p class="text-gray-600 text-md">Figma</p>
+                  <p class="text-lg font-bold text-gray-800 truncate">Leetcode</p>
+                  
                 </div>
               </div>
               <div class="mt-4 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-14 flex items-center sm:space-x-6 sm:pl-0 sm:justify-end
                   sm:mt-0">
                 <a href="" class="bg-gray-800 pt-2 pr-6 pb-2 pl-6 text-lg font-medium text-gray-100 transition-all
-                    duration-200 hover:bg-gray-700 rounded-lg">Apply</a>
+                    duration-200 hover:bg-gray-700 rounded-lg">Visit</a>
               </div>
             </div>
           </div>
@@ -89,14 +89,14 @@ const Social = () => {
                 <img src="https://i.pinimg.com/originals/96/02/08/9602083f42463bb813399310d72233c5.png"
                     class="flex-shrink-0 object-cover rounded-full btn- w-10 h-10"/>
                 <div class="mt-0 mr-0 mb-0 ml-4 flex-1 min-w-0">
-                  <p class="text-lg font-bold text-gray-800 truncate">Software Engineeer</p>
-                  <p class="text-gray-600 text-md">Pinterest</p>
+                  <p class="text-lg font-bold text-gray-800 truncate">Instagram</p>
+                  
                 </div>
               </div>
               <div class="mt-4 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-14 flex items-center sm:space-x-6 sm:pl-0 sm:justify-end
                   sm:mt-0">
                 <a href="" class="bg-gray-800 pt-2 pr-6 pb-2 pl-6 text-lg font-medium text-gray-100 transition-all
-                    duration-200 hover:bg-gray-700 rounded-lg">Apply</a>
+                    duration-200 hover:bg-gray-700 rounded-lg">Visit</a>
               </div>
             </div>
           </div>
