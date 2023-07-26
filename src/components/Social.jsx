@@ -27,7 +27,7 @@ const Social = () => {
                 </div>
               </div>
               <div class="mt-4 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-14 flex items-center sm:space-x-6 sm:pl-0 sm:mt-0">
-                <a href="https://www.linkedin.com/in/charandeepsingh01/" class="bg-gray-800 pt-2 pr-6 pb-2 pl-6 text-lg font-medium text-gray-100 transition-all
+                <a href="https://www.linkedin.com/in/charandeepsingh01/" target='_blank' class="bg-gray-800 pt-2 pr-6 pb-2 pl-6 text-lg font-medium text-gray-100 transition-all
                     duration-200 hover:bg-gray-700 rounded-lg">Visit</a>
               </div>
             </div>
@@ -44,7 +44,7 @@ const Social = () => {
               </div>
               <div class="mt-4 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-14 flex items-center sm:space-x-6 sm:pl-0 sm:justify-end
                   sm:mt-0">
-                <a href="https://github.com/CharandeepSingh01" class="bg-gray-800 pt-2 pr-6 pb-2 pl-6 text-lg font-medium text-gray-100 transition-all
+                <a href="https://github.com/CharandeepSingh01" target='_blank' class="bg-gray-800 pt-2 pr-6 pb-2 pl-6 text-lg font-medium text-gray-100 transition-all
                     duration-200 hover:bg-gray-700 rounded-lg">Visit</a>
               </div>
             </div>
@@ -61,7 +61,7 @@ const Social = () => {
               </div>
               <div class="mt-4 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-14 flex items-center sm:space-x-6 sm:pl-0 sm:justify-end
                   sm:mt-0">
-                <a href="https://www.producthunt.com/@charandeep_singh_chawla" class="bg-gray-800 pt-2 pr-6 pb-2 pl-6 text-lg font-medium text-gray-100 transition-all
+                <a href="https://www.producthunt.com/@charandeep_singh_chawla" target='_blank' class="bg-gray-800 pt-2 pr-6 pb-2 pl-6 text-lg font-medium text-gray-100 transition-all
                     duration-200 hover:bg-gray-700 rounded-lg">Visit</a>
               </div>
             </div>
@@ -78,7 +78,7 @@ const Social = () => {
               </div>
               <div class="mt-4 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-14 flex items-center sm:space-x-6 sm:pl-0 sm:justify-end
                   sm:mt-0">
-                <a href="https://leetcode.com/CharandeepSingh/" class="bg-gray-800 pt-2 pr-6 pb-2 pl-6 text-lg font-medium text-gray-100 transition-all
+                <a href="https://leetcode.com/CharandeepSingh/" target='_blank' class="bg-gray-800 pt-2 pr-6 pb-2 pl-6 text-lg font-medium text-gray-100 transition-all
                     duration-200 hover:bg-gray-700 rounded-lg">Visit</a>
               </div>
             </div>
@@ -95,7 +95,7 @@ const Social = () => {
               </div>
               <div class="mt-4 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-14 flex items-center sm:space-x-6 sm:pl-0 sm:justify-end
                   sm:mt-0">
-                <a href="https://www.instagram.com/the_conquerorguy/" class="bg-gray-800 pt-2 pr-6 pb-2 pl-6 text-lg font-medium text-gray-100 transition-all
+                <a href="https://www.instagram.com/the_conquerorguy/" target='_blank' class="bg-gray-800 pt-2 pr-6 pb-2 pl-6 text-lg font-medium text-gray-100 transition-all
                     duration-200 hover:bg-gray-700 rounded-lg">Visit</a>
               </div>
             </div>
